@@ -1,8 +1,7 @@
 # fenix &nbsp; [![bluebuild build badge](https://github.com/fenbyte/fenix/actions/workflows/build.yml/badge.svg)](https://github.com/fenbyte/fenix/actions/workflows/build.yml)
 
-See the [BlueBuild docs](https://blue-build.org/how-to/setup/) for quick setup instructions for setting up your own repository based on this template.
-
-After setup, it is recommended you update this README to describe your custom image.
+this is what we call an Opinioned ~~distro~~ image, so i dont actually recommend you go ahead and use this unless you somehow like the exact same setup as i do
+based on secureblue/sericea-main-hardened (which itself is based on fedora-ostree-desktops/sway-atomic) but i replaced a bunch of stuff. ill make a more comprehensive list of changes later
 
 ## Installation
 
