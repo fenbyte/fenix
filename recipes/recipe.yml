@@ -13,7 +13,7 @@ modules:
 
   - type: dnf
     repos:
-      nonfree: rpmfusion
+      #nonfree: rpmfusion
       copr:
         - name: yalter/niri
           chroot: fedora-42-x86_64
@@ -26,7 +26,7 @@ modules:
         - niri
         - ghostty
         - quickshell-git
-        - mpd
+        #- mpd
         - dolphin
         - qt5ct
         - qt6ct
@@ -60,6 +60,6 @@ modules:
         install:
           - app.zen_browser.zen
           - org.gnome.Loupe
-          - org.kde.Haruna
+          - org.kde.haruna
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
